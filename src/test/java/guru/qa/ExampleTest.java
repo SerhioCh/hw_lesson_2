@@ -9,7 +9,7 @@ public class ExampleTest {
     @Test
     void exampleTest0() {
 
-        Assertions.assertFalse(2>=1);
+        Assertions.assertFalse(2<=1);
 
 
     }
@@ -17,7 +17,7 @@ public class ExampleTest {
     @Test
     void exampleTest1() {
 
-        Assertions.assertFalse(3 >= 2);
+        Assertions.assertTrue(3 >= 2);
 
 
     }
